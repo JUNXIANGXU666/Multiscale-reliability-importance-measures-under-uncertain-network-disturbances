@@ -1,0 +1,5 @@
+comparison,form,candidate_count,spearman,top5_overlap
+weighted_dpc_vs_weighted_global_efficiency,corridor,739,0.4223387877606725,0.0
+weighted_dpc_vs_weighted_global_efficiency,edge,38,0.0843837343612075,0.2
+weighted_dpc_vs_weighted_global_efficiency,region,20,0.816132985212591,0.6
+od_weighted_vs_equal_source_dpc,edge,38,0.8899760168512145,0.4

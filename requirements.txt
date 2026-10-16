@@ -1,0 +1,7 @@
+matplotlib==3.10.3
+networkx==3.4.2
+numpy==2.2.6
+pandas==2.3.1
+psutil==7.0.0
+scipy==1.13.1
+threadpoolctl==3.6.0

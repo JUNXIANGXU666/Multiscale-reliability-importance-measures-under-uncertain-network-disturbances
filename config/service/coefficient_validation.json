@@ -1,0 +1,15 @@
+{
+  "run_id": "R3-calibrated-service-coefficients-v1",
+  "purpose": "Connect the paper's first-order and second-order loss approximations to the independent service validation at the locked adjacency horizon.",
+  "horizon_source": "calibration_completion.json selected.adjacency_quantum.horizon",
+  "source_weights": "Fixed OD-origin shares, identical to the exact feature",
+  "quadrature_pairs": [[24, 6], [32, 8], [48, 10], [64, 12]],
+  "successive_absolute_tolerance": 1e-7,
+  "finite_difference_time_order": 64,
+  "finite_difference_step": 0.001,
+  "finite_difference_g_absolute_tolerance": 1e-6,
+  "finite_difference_Q_absolute_tolerance": 1e-5,
+  "independent_feature_tolerance": 1e-9,
+  "threshold_rule": "Both approximations use the exact DPC training threshold. No surrogate-specific refitting and no selection using held-out outcomes.",
+  "stopping_rule": "Accept the first successive quadrature pair passing the tolerance, then require all independent finite-difference checks. Failure at the largest pair blocks the held-out approximation comparison."
+}

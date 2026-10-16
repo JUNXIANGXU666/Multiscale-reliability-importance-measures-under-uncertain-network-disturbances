@@ -1,0 +1,345 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 88,
+      "sha256": "dd0f3523df6d7899b8fde1dd266560a72bdda5de36c8b910163a840a90f7a988"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 126,
+      "sha256": "9e06c8b5b9f5b91a3fd74847d6e2a7b81e8a52ed724492522209d18833bb1d43"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 507,
+      "sha256": "f00b9f8f4ccae21b5d03187fad39ffeb07048c4c1f8d65673287386563bfc6f5"
+    },
+    {
+      "path": "code/dpc/check_horizon_results.py",
+      "bytes": 4858,
+      "sha256": "a216e383a55562870509c95df95a8da1ef2821da72a3437b1d1d9cfff71b9129"
+    },
+    {
+      "path": "code/dpc/dpc_core.py",
+      "bytes": 35502,
+      "sha256": "df20868867f5a0cb8e1efe55d63403dad98a3bba68c83863dbd684ea99fa062f"
+    },
+    {
+      "path": "code/dpc/kernel_dependence_experiments.py",
+      "bytes": 88204,
+      "sha256": "6020df92e718bd739c33f26a1a178ce177cf82576bd440c4a76a7ae3e47900bc"
+    },
+    {
+      "path": "code/dpc/propagation_scale_audit.py",
+      "bytes": 18178,
+      "sha256": "c9deef5d755ebeb969f6083c67ca82c1db69fad053f1e55276b08d79330c22bb"
+    },
+    {
+      "path": "code/dpc/render_base_figures.py",
+      "bytes": 38779,
+      "sha256": "3ac1393762fe0c62001f3ee01e07291714852e997994a0ae0f7f43c4c1dfaa8e"
+    },
+    {
+      "path": "code/dpc/render_dpc_comparisons.py",
+      "bytes": 19003,
+      "sha256": "4e5489440401866db1e13f2f5481c7c14c2c46a2529ac9a59cca0a27ce423b71"
+    },
+    {
+      "path": "code/dpc/render_interval_figure.py",
+      "bytes": 10505,
+      "sha256": "a7dc92c6056b1a5754b1e3fc6d797c1b8d3e25d82aad68fe073e6593ef0ced23"
+    },
+    {
+      "path": "code/dpc/run_all_experiments.py",
+      "bytes": 79588,
+      "sha256": "b759517ed12b76053d2e43550722ff44ed750d8ab6f6808572c44fda0080ba15"
+    },
+    {
+      "path": "code/dpc/sioux_and_sensitivity.py",
+      "bytes": 69430,
+      "sha256": "0f6241d2299180a828820763ec727995d62455ab5504049fb6022522720480ff"
+    },
+    {
+      "path": "code/dpc/summarise_interval_and_resampling.py",
+      "bytes": 8539,
+      "sha256": "9036c09b2eeb8ea4fff5fd7b5c4e38e316eda8d69ce24a54920852fca804272f"
+    },
+    {
+      "path": "code/dpc/summarise_kernel_contrasts.py",
+      "bytes": 2797,
+      "sha256": "b54f106589b584664fa855585d07b65eb022140aa35f426e10b12bbed53d55d5"
+    },
+    {
+      "path": "code/dpc/summarise_sioux_results.py",
+      "bytes": 11962,
+      "sha256": "6812796961dd02ec981a051c873b2a9f0c4b088d5fe271bd0b1a7e8abec3b25d"
+    },
+    {
+      "path": "code/service/analyse_service_validation.py",
+      "bytes": 17739,
+      "sha256": "39130f4bd5f8c67c82e5ff0ebd7fc0fe7a1803769cd8dafdadd1ed8c206d2214"
+    },
+    {
+      "path": "code/service/batched_propagation.py",
+      "bytes": 1778,
+      "sha256": "7e8ea3a4652d55fa2fb0435e871259fdfd0fb46a8c58f9dfa66ee54c2aa369c5"
+    },
+    {
+      "path": "code/service/confirmatory_validation.py",
+      "bytes": 12845,
+      "sha256": "599254e33ea1d3cda297e997b5c5baeb247074d03c6d3ed3cb504aec6823d4a2"
+    },
+    {
+      "path": "code/service/heldout_validation.py",
+      "bytes": 11671,
+      "sha256": "fd7e97038b02eee6a150f0b7dbdd52b8d7e9b08ee140e4274f4d210c6d4a6cf2"
+    },
+    {
+      "path": "code/service/render_framework.py",
+      "bytes": 3461,
+      "sha256": "f201e361eb5e674a49e99866a061f00a764f1c493c840c9d2f6c9a175e7c37ff"
+    },
+    {
+      "path": "code/service/render_grid_dpc.py",
+      "bytes": 4401,
+      "sha256": "1b9799ef9209d347c83dbe231110ab5636dfaec8e535fbe6cf47906cd5397b31"
+    },
+    {
+      "path": "code/service/render_service_results.py",
+      "bytes": 14566,
+      "sha256": "dd01505445a61f767ba71777240d56925c912cba739e88791df461ffec357393"
+    },
+    {
+      "path": "code/service/reused_coefficient_kernel.py",
+      "bytes": 11300,
+      "sha256": "e78223dc9b8b05111ef2b07ee87e13a197ab6714213cb0f1c8523244e32ad09d"
+    },
+    {
+      "path": "code/service/service_coefficient_validation.py",
+      "bytes": 5004,
+      "sha256": "a6fb6dfb476400661ae084819bfe05142ee60c2d4b36f27b8457e52133073964"
+    },
+    {
+      "path": "code/service/service_theory_checks.py",
+      "bytes": 3762,
+      "sha256": "b7489082359365d3f189adeda865f727d52ff5b6b9689bc5b9c160f405079c74"
+    },
+    {
+      "path": "code/service/service_validation.py",
+      "bytes": 16446,
+      "sha256": "2cef6bd757c22cf282ca6ab26ec22400ab582fc396dd278f392245c8661aecd2"
+    },
+    {
+      "path": "code/service/test_service_analysis.py",
+      "bytes": 3776,
+      "sha256": "12e039dd50f3c934eb9c8fa92dfea0ccac249cf506fb87d66649ab3090f3638f"
+    },
+    {
+      "path": "code/service/validate_batched_propagation.py",
+      "bytes": 1911,
+      "sha256": "e40ef6d03076e58abfffb9e4c4b6d017a3ff1393626e63cd05079ea36887789b"
+    },
+    {
+      "path": "config/service/coefficient_validation.json",
+      "bytes": 1066,
+      "sha256": "cccac170254ac8168cc2ec0ffff1f7aca9098694c4664002b8882dcb2357c6a8"
+    },
+    {
+      "path": "config/service/confirmatory_protocol.json",
+      "bytes": 4337,
+      "sha256": "25ed83cfa7469e2ff0625c38016a222dc5c49e810b5579174bab40d8b6d3747f"
+    },
+    {
+      "path": "config/service/diagnostic_pilot.json",
+      "bytes": 841,
+      "sha256": "ad3d0294fb7d5277c30bc5a1ffc16cc5707a8cef89113daab47b92d26917cf92"
+    },
+    {
+      "path": "config/service/statistical_analysis.json",
+      "bytes": 2220,
+      "sha256": "e15dc5603fab6af0c120c0223cac081813f162599cb1ae81da788e07d839c2f7"
+    },
+    {
+      "path": "data/sioux_falls/sioux_candidates.csv",
+      "bytes": 30889,
+      "sha256": "8b7d5700067ba05d2af19c4c263c8ca41f411b92b57c84fdb0aec44d5ee7ffaf"
+    },
+    {
+      "path": "data/sioux_falls/sioux_physical_edges.csv",
+      "bytes": 1938,
+      "sha256": "203bb20d49718d0af3e02ac30e96de904ac72d3005de413d223507dffa1c8447"
+    },
+    {
+      "path": "data/sioux_falls/sioux_source_weights.csv",
+      "bytes": 796,
+      "sha256": "833aded7a7a053992d39d2466a183f80ce6fd8c31b38c02ad5d359a26ecc4712"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 1014,
+      "sha256": "aa7ba1717a5e0e90486e479652e56bdb68d5923f2d110dde7f022a94125af270"
+    },
+    {
+      "path": "fetch_data.py",
+      "bytes": 1692,
+      "sha256": "04abc313fbbecd896d20574ea4a985374e0fb9b2ff9fb6f538fc3cd7f624f04a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "84e7b170ef2ded7c21189aed943ae1ab6921c38880b85977ae62eab7462ab63c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5706,
+      "sha256": "09f5eca4a5b93ad33620b66188697f0daa26a7b587c093fa080c7c71e0e8822d"
+    },
+    {
+      "path": "reference/dpc/baseline/coefficient_finite_difference_validation.csv",
+      "bytes": 771,
+      "sha256": "058246982685045aa9ff52ecfe4e5b42b8cb45d7a16add57d17e5fe149ddf3e0"
+    },
+    {
+      "path": "reference/dpc/baseline/coefficient_quadrature_convergence.csv",
+      "bytes": 855,
+      "sha256": "19c4f0b43549d9598ab436eed6a1dbbb67332b54ab2c1508da5815c19e6de5d5"
+    },
+    {
+      "path": "reference/dpc/baseline/grid_ablation_metrics.csv",
+      "bytes": 1136,
+      "sha256": "f3e870a1952e7309a11aa297063310a8bd3df191a80a23ed01665820e6c9197b"
+    },
+    {
+      "path": "reference/dpc/baseline/grid_candidate_results.csv",
+      "bytes": 24413,
+      "sha256": "8d2c08fef8bdd09aaa232fff3c1b802224490e9763c62731a4215b62875245ef"
+    },
+    {
+      "path": "reference/dpc/baseline/grid_experiment_arrays.npz",
+      "bytes": 484502,
+      "sha256": "24b78ce864d7475d87afc904b819fa09501ad8bd2b3516977aa3fc096e4f96cb"
+    },
+    {
+      "path": "reference/dpc/baseline/grid_scenario_calibration.csv",
+      "bytes": 26747,
+      "sha256": "9caf827f79a4f346a3a524711d1b5a28c08b3a2881a657b7e4ccc66a13d18517"
+    },
+    {
+      "path": "reference/dpc/baseline/numerical_audit.json",
+      "bytes": 1466,
+      "sha256": "79ef880e876e4ec47f15948c07952ab288161c78b1433494024169951147ec58"
+    },
+    {
+      "path": "reference/dpc/baseline/topology_network_summary.csv",
+      "bytes": 8645,
+      "sha256": "59d0c1143bc495a76395f9adc55f2bb617e42bde266537e1c87c440a991da31f"
+    },
+    {
+      "path": "reference/dpc/baseline/topology_rank_metrics.csv",
+      "bytes": 21747,
+      "sha256": "1f99b811b286c0a0520db44767348bbd067d411b9869bbb38b49856d56f8594f"
+    },
+    {
+      "path": "reference/dpc/robustness/kernel_rank_comparisons.csv",
+      "bytes": 4186,
+      "sha256": "eef6232ea95674918d1cd6f6125b202a060359cdaa82f3976b5928e75f9bb776"
+    },
+    {
+      "path": "reference/dpc/robustness/runtime_coefficient_scaling_extended.csv",
+      "bytes": 4014,
+      "sha256": "b85fd6d96991d6d65f4116f972d6fa08e5d2b2901f6661a2c80918cea3dc07f8"
+    },
+    {
+      "path": "reference/dpc/sioux/certificate_rate_summary.csv",
+      "bytes": 3901,
+      "sha256": "6255947f0f756b379ed6f2d6eecaee56b8770b5c0fcee0fde02a5078ddf0da65"
+    },
+    {
+      "path": "reference/dpc/sioux/sioux_rank_comparisons.csv",
+      "bytes": 350,
+      "sha256": "d1e045ef9e5664e62765002d815cab82f6f5bcf51bf2d192f31863d4944b180b"
+    },
+    {
+      "path": "reference/service/allocation_comparison_candidates.csv",
+      "bytes": 207492,
+      "sha256": "a7ad0eefc6e38917f27ea5d6683b749874d4099c4873cabc8f69827c63632698"
+    },
+    {
+      "path": "reference/service/allocation_comparison_summary.csv",
+      "bytes": 2789,
+      "sha256": "b2978105c8a8d293e671fac5b8dc30c9bc4ff869c0f606bc0d1b877006b6f7d1"
+    },
+    {
+      "path": "reference/service/calibration_completion.json",
+      "bytes": 9471,
+      "sha256": "ab65101b8a801a2d611af0ce0873e20cc813bb95869e018bdebf3cd1c400e6f5"
+    },
+    {
+      "path": "reference/service/direction_bias_candidates.csv",
+      "bytes": 165083,
+      "sha256": "fcbf77ecb800afd6a2cd8a37691784c76d0c27b5d3a6dea39a85ea33fe487c38"
+    },
+    {
+      "path": "reference/service/direction_bias_summary.csv",
+      "bytes": 2519,
+      "sha256": "c5e58b65e817730fe82ac881fcaaf168948bf573d644e8f455e5e9297620d9a8"
+    },
+    {
+      "path": "reference/service/horizon_sensitivity_summary.csv",
+      "bytes": 11495,
+      "sha256": "97db9e871ed6ee8ce753516f804ba71360c10db23dd428055c6a951a28d8a9cd"
+    },
+    {
+      "path": "reference/service/service_analysis_completion.json",
+      "bytes": 2056,
+      "sha256": "bb05d61dc5716205ddd46b54ddaaee908be9e87bf1c12c577af808fa99790eb6"
+    },
+    {
+      "path": "reference/service/service_transfer_bounds.csv",
+      "bytes": 76115,
+      "sha256": "560a780f46036604efe0a6aaba96b033afc1ffb4cd674097cd21bd8561f69182"
+    },
+    {
+      "path": "reference/service/service_validation_candidates.csv",
+      "bytes": 2195577,
+      "sha256": "b2d32cab53d5ff7f3725f6025d6b86aba79de3b19d0f79dec18f87ff3ff88548"
+    },
+    {
+      "path": "reference/service/service_validation_intervals.csv",
+      "bytes": 3890,
+      "sha256": "6fac60a96e34a8dc339cb47fa50d8ece5c1d1a3bd2de027a06caa2579e510d9e"
+    },
+    {
+      "path": "reference/service/service_validation_summary.csv",
+      "bytes": 27820,
+      "sha256": "124ae05c40694771a169c082899e479e05199659b0b0700854776e3744a943d7"
+    },
+    {
+      "path": "render_figures.py",
+      "bytes": 2399,
+      "sha256": "6b8309e11491bc1fb4aa2deeebb0192e5b9c02bd309e599bbc5e79d6b0b2f6e3"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 7071,
+      "sha256": "09099a23b21ff87c60047e8657d2cc5a264aff43ae187dc1bdd84176c5260243"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 111,
+      "sha256": "059b6ff7762ed5e587bd0daecf55784609f10cc8f34ff576ddc9b0b8d15ac4ae"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 1301,
+      "sha256": "dfd1231168e1e5123ad7e50ae37a6cda51334908928fa5aac57683853f265794"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 1531,
+      "sha256": "40c3644b99ee22c703f15373bd0a3bb9bd5e24f2836ad539044aaec29eefbb83"
+    }
+  ]
+}

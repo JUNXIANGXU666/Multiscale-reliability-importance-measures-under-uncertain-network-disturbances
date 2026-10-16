@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this repository when using these materials."
+title: "Multiscale reliability importance measures under uncertain network disturbances: A quantum-walk-inspired numerical framework"
+type: software
+authors:
+  - family-names: Xu
+    given-names: Junxiang
+version: 1.0.0
+date-released: 2026-10-16
+license: MIT
+repository-code: "https://github.com/JUNXIANGXU666/Multiscale-reliability-importance-measures-under-uncertain-network-disturbances"

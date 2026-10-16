@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+runs/
+*.log
+*.tmp
+.pytest_cache/
+plot_config/
+data/sioux_falls/*.tntp

@@ -1,0 +1,22 @@
+{
+  "source": "Transportation Networks for Research, Sioux Falls",
+  "homepage": "https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls",
+  "terms": "https://github.com/bstabler/TransportationNetworks#license",
+  "files": [
+    {
+      "name": "SiouxFalls_net.tntp",
+      "url": "https://raw.githubusercontent.com/bstabler/TransportationNetworks/master/SiouxFalls/SiouxFalls_net.tntp",
+      "sha256": "ace99b24cec69c273ff0cf3d6d074110177f0cc0ae24b0c7a9f4f4cb5e27635c"
+    },
+    {
+      "name": "SiouxFalls_node.tntp",
+      "url": "https://raw.githubusercontent.com/bstabler/TransportationNetworks/master/SiouxFalls/SiouxFalls_node.tntp",
+      "sha256": "91c0b954dcfc6f6f08f48de1ce9d245261f5188a33aef76acf3ce1fff0809969"
+    },
+    {
+      "name": "SiouxFalls_trips.tntp",
+      "url": "https://raw.githubusercontent.com/bstabler/TransportationNetworks/master/SiouxFalls/SiouxFalls_trips.tntp",
+      "sha256": "56f9566857f3f66730fd5c4232258d7ee3ac2931a476526331afd062f4958de7"
+    }
+  ]
+}

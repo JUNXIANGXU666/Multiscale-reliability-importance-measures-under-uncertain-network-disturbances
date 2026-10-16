@@ -1,0 +1,19 @@
+{
+  "run_id": "R3-service-statistical-analysis-v1",
+  "frozen_before_inspecting_heldout_outcomes": true,
+  "primary_service_limit": 1.10,
+  "service_limits": [1.05, 1.10, 1.20],
+  "bootstrap_replications": 1000,
+  "bootstrap_seed": 2026101611,
+  "confidence_level": 0.95,
+  "resampling_unit": "One joint disturbance scenario, shared by baseline and all interventions. Do not resample candidates as if independent observations.",
+  "top_five": "Assign unit weight above the fifth-largest importance and share the remaining mass equally across all ties at that boundary. Overlap is the sum of the smaller weights divided by five. Also report boundary-tie counts.",
+  "pair_reversals": "Compare every pair within each form. The denominator is the number of strictly ordered reference pairs. Report reversed pairs and tied proxy pairs separately. Equal values use tolerance 1e-12.",
+  "correlation": "Spearman correlation with average ranks for ties. A constant variable gives an undefined correlation, reported as such.",
+  "event_error_aggregation": "Report baseline and each form separately. Pooled counts cover all candidates and scenarios, and do not treat correlated candidate observations as independent for intervals.",
+  "formal_transfer_family": "One primary adjacency model at service limit 1.10. Use one-sided Clopper-Pearson event-disagreement upper bounds with alpha=0.05/798 for the baseline and all 797 interventions. Shared scenarios do not invalidate the union bound.",
+  "approximations": "First- and second-order scores retain the locked exact-DPC threshold and healthy normalisation. Report their importance error against exact DPC and against independently calculated service.",
+  "horizon_checks": "Report all seven frozen factors under both fixed relative threshold and fixed raw threshold. No factor may be selected using these results.",
+  "direction_checks": "Compare directed and reciprocal-rate-symmetrised service under the same directed disturbances and interventions. Report both service metrics independently of DPC.",
+  "allocation_checks": "Compare proportional-headroom and uniform allocations with identical total increment, candidate and scenario. Keep all forms and all candidates."
+}

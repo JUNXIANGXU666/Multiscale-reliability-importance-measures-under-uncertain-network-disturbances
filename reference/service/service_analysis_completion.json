@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "fingerprint": "e1639e076d947f93741907a004e7b333f7f686080537b92c8958ea4228a1ac26",
+  "experiment_fingerprint": "0d3cb523b0e4beb89ac8903d3b912ab73cc775710ccb71c5614e3113a74011af",
+  "primary": {
+    "scope": "primary",
+    "candidate_count": 797,
+    "scenarios": 1024,
+    "model_count": 8,
+    "service_limits": [
+      1.05,
+      1.1,
+      1.2
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "experiments/results/service_validation_summary.csv",
+      "sha256": "124ae05c40694771a169c082899e479e05199659b0b0700854776e3744a943d7"
+    },
+    {
+      "path": "experiments/results/service_validation_candidates.csv",
+      "sha256": "b2d32cab53d5ff7f3725f6025d6b86aba79de3b19d0f79dec18f87ff3ff88548"
+    },
+    {
+      "path": "experiments/results/service_transfer_bounds.csv",
+      "sha256": "560a780f46036604efe0a6aaba96b033afc1ffb4cd674097cd21bd8561f69182"
+    },
+    {
+      "path": "experiments/results/service_validation_intervals.csv",
+      "sha256": "6fac60a96e34a8dc339cb47fa50d8ece5c1d1a3bd2de027a06caa2579e510d9e"
+    },
+    {
+      "path": "experiments/results/horizon_sensitivity_summary.csv",
+      "sha256": "97db9e871ed6ee8ce753516f804ba71360c10db23dd428055c6a951a28d8a9cd"
+    },
+    {
+      "path": "experiments/results/allocation_comparison_summary.csv",
+      "sha256": "b2978105c8a8d293e671fac5b8dc30c9bc4ff869c0f606bc0d1b877006b6f7d1"
+    },
+    {
+      "path": "experiments/results/allocation_comparison_candidates.csv",
+      "sha256": "a7ad0eefc6e38917f27ea5d6683b749874d4099c4873cabc8f69827c63632698"
+    },
+    {
+      "path": "experiments/results/direction_bias_summary.csv",
+      "sha256": "c5e58b65e817730fe82ac881fcaaf168948bf573d644e8f455e5e9297620d9a8"
+    },
+    {
+      "path": "experiments/results/direction_bias_candidates.csv",
+      "sha256": "fcbf77ecb800afd6a2cd8a37691784c76d0c27b5d3a6dea39a85ea33fe487c38"
+    }
+  ],
+  "source_fingerprint_before_packaging": "4a8f9c27e53cc4a6b8d746b6545304ec90c3bdd3d62256aa38032136a79db7fd"
+}

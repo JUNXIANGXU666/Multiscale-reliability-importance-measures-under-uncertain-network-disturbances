@@ -1,0 +1,29 @@
+SIOUX FALLS INPUTS
+
+Source: Transportation Networks for Research Core Team
+https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls
+Upstream terms:
+https://github.com/bstabler/TransportationNetworks#license
+Accessed: 16 October 2026
+
+The SiouxFalls_net.tntp, SiouxFalls_node.tntp and SiouxFalls_trips.tntp
+files are downloaded from upstream and are not redistributed here. They are NOT relicensed under this repository's
+MIT software licence. The upstream repository restricts its donated datasets
+to academic research, requires acknowledgement of the source in publications,
+and places responsibility for derived results on data users. Please consult
+and comply with the linked upstream terms. The processed Sioux Falls CSVs
+retain the same source attribution and do not remove those restrictions.
+
+The original network and demand are attributed upstream to LeBlanc, Morlok
+and Pierskalla (1975), "An efficient approach to solving the road network
+equilibrium traffic assignment problem". Coordinates are artificial benchmark
+coordinates. They are not a georeferenced road inventory. Free-flow time units
+are 0.01 hours, and the benchmark demands follow the scaling documented by
+the upstream repository.
+
+DEPENDENCIES
+
+Python and the third-party packages listed in requirements.txt retain their
+own licences. Arial is not distributed with this repository. A locally
+installed Arial font reproduces the reference typography; users without it
+may use a substitute font without changing the numerical calculations.
