@@ -50,6 +50,5 @@
       "path": "experiments/results/direction_bias_candidates.csv",
       "sha256": "fcbf77ecb800afd6a2cd8a37691784c76d0c27b5d3a6dea39a85ea33fe487c38"
     }
-  ],
-  "source_fingerprint_before_packaging": "4a8f9c27e53cc4a6b8d746b6545304ec90c3bdd3d62256aa38032136a79db7fd"
+  ]
 }

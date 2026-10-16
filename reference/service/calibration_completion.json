@@ -310,7 +310,5 @@
   ],
   "training_states": 4096,
   "calibration_states": 4096,
-  "elapsed_seconds": 1047.633522700009,
-  "source_fingerprint_before_packaging": "2ec4058c9dbafe62dcd07364eb47b22c32e096d4d1398790ca2961f5fb79fc82",
-  "packaging_note": "Reference calculations retained. Source docstrings cleaned without changing executable expressions."
+  "elapsed_seconds": 1047.633522700009
 }

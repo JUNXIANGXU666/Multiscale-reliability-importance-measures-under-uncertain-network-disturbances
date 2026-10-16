@@ -273,8 +273,8 @@
     },
     {
       "path": "reference/service/calibration_completion.json",
-      "bytes": 9471,
-      "sha256": "ab65101b8a801a2d611af0ce0873e20cc813bb95869e018bdebf3cd1c400e6f5"
+      "bytes": 9237,
+      "sha256": "455dc493a394680fccfc9e718fd067c86a0d834ea82705f036889a342c7c7dff"
     },
     {
       "path": "reference/service/direction_bias_candidates.csv",
@@ -293,8 +293,8 @@
     },
     {
       "path": "reference/service/service_analysis_completion.json",
-      "bytes": 2056,
-      "sha256": "bb05d61dc5716205ddd46b54ddaaee908be9e87bf1c12c577af808fa99790eb6"
+      "bytes": 1946,
+      "sha256": "8840fd195712c8b6a05e4d67cec61af93f35dffdc660b30d497709518490d727"
     },
     {
       "path": "reference/service/service_transfer_bounds.csv",
